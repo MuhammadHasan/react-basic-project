@@ -1,23 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>hello <strong className="myname">hasan</strong></h1>
         <p>
           My first Deployment of react App with surge.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <ul>
+          <li>React</li>
+          <li>HTML</li>
+          <li>Javascript</li>
+        </ul>
       </header>
     </div>
   );
