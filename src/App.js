@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Hello from './Hello';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <li>HTML</li>
           <li>Javascript</li>
         </ul>
+        <Hello></Hello>
       </header>
     </div>
   );
